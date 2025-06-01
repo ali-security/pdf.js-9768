@@ -62,6 +62,12 @@
     "wintersmith": "^2.5.0",
     "yargs": "^17.3.0"
   },
+  "overrides": {
+    "eslint": "7.32.0",
+    "eslint-plugin-prettier": "3.4.1",
+    "eslint-plugin-no-unsanitized": "3.2.0",
+    "eslint-plugin-unicorn": "36.0.0"
+  },
   "scripts": {
     "postinstall": "cross-env node node_modules/puppeteer/install.js"
   },
